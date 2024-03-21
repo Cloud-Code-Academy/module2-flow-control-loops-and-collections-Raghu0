@@ -125,7 +125,7 @@ public with sharing class FlowControlLoopsCollectionsTest {
     @IsTest
     static void testReturnHelloWorld() {
         String result = FlowControlLoopsCollections.returnHelloWorld();
-        Assert.areEqual('Hello World!; Hello World!; Hello World!; ', result, 'Incorrect result for returnHelloWorld');
+        Assert.areEqual('Hello World!; Hello World!; Hello World!; ', result, 'Incorrect result for return HelloWorld');
     }
 
     @IsTest
